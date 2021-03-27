@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>解决 GitHub 访问不了</title>
+      <link href="posts/77868ba1.html"/>
+      <url>posts/77868ba1.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>GitHub是一个面向开源及私有软件项目的托管平台，我们可以寻找大佬们开源的代码以及部署个人的代码。</p></blockquote><blockquote><p>最近Github时常无法访问，也不是网络的原因，这让人有点烦恼，最后在网上找了一些解决方法，如下操作（windows系统为例子）：</p></blockquote><p><em>注意一点：win10用户，hosts文件都是有权限的，所以会出现保存失败。关于设置图在最低下</em></p><p>打开 <code>C:\Windows\System32\drivers\etc\hosts</code> 输入以下代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">185.199.108.154               github.githubassets.com</span><br><span class="line">140.82.114.21                 central.github.com</span><br><span class="line">185.199.108.133               desktop.githubusercontent.com</span><br><span class="line">185.199.108.153               assets-cdn.github.com</span><br><span class="line">185.199.108.133               camo.githubusercontent.com</span><br><span class="line">185.199.108.133               github.map.fastly.net</span><br><span class="line">199.232.69.194                github.global.ssl.fastly.net</span><br><span class="line">140.82.113.4                  gist.github.com</span><br><span class="line">185.199.108.153               github.io</span><br><span class="line">140.82.114.3                  github.com</span><br><span class="line">140.82.113.5                  api.github.com</span><br><span class="line">185.199.108.133               raw.githubusercontent.com</span><br><span class="line">185.199.108.133               user-images.githubusercontent.com</span><br><span class="line">185.199.108.133               favicons.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars5.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars4.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars3.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars2.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars1.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars0.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars.githubusercontent.com</span><br><span class="line">140.82.113.10                 codeload.github.com</span><br><span class="line">52.216.226.40                 github-cloud.s3.amazonaws.com</span><br><span class="line">52.216.162.99                 github-com.s3.amazonaws.com</span><br><span class="line">52.216.142.196                github-production-release-asset-2e65be.s3.amazonaws.com</span><br><span class="line">52.217.97.236                 github-production-user-asset-6210df.s3.amazonaws.com</span><br><span class="line">52.217.194.41                 github-production-repository-file-5c1aeb.s3.amazonaws.com</span><br><span class="line">185.199.108.153               githubstatus.com</span><br><span class="line">64.71.168.201                 github.community</span><br><span class="line">185.199.108.133               media.githubusercontent.com</span><br></pre></td></tr></table></figure><p><img src= "/images/loading.gif" data-lazy-src="https://gitee.com/heyiki/image/raw/master/image/20210327205126.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用Guzzle执行HTTP请求</title>
       <link href="posts/592498db.html"/>
       <url>posts/592498db.html</url>
