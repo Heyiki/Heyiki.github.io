@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2021-03-27T15:39:27.000Z</updated>
+  <updated>2021-03-29T15:32:14.000Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>迅搜-接口配置</title>
+    <link href="https://www.heyiki.top/posts/9a28783c.html"/>
+    <id>https://www.heyiki.top/posts/9a28783c.html</id>
+    <published>2021-03-29T15:32:14.000Z</published>
+    <updated>2021-03-29T15:32:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="直播" scheme="https://www.heyiki.top/tags/%E7%9B%B4%E6%92%AD/"/>
+    
+    <category term="腾讯云直播" scheme="https://www.heyiki.top/tags/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9B%B4%E6%92%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>宝塔使用webhook实现conding代码自动部署</title>
@@ -491,33 +520,6 @@
     
     
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TP5使用百度ueditor富文本编辑器</title>
-    <link href="https://www.heyiki.top/posts/75e87ecb.html"/>
-    <id>https://www.heyiki.top/posts/75e87ecb.html</id>
-    <published>2019-09-14T10:17:46.000Z</published>
-    <updated>2019-09-14T10:17:46.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;百度富文本在tp5框架中的使用&quot;&gt;&lt;a href=&quot;#百度富文本在tp5框架中的使用&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="ueditor" scheme="https://www.heyiki.top/tags/ueditor/"/>
     
   </entry>
   

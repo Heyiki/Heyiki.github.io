@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>迅搜-接口配置</title>
+      <link href="posts/9a28783c.html"/>
+      <url>posts/9a28783c.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>最近项目涉及到<code>直播</code>以及<code>即时通信IM</code>的业务场景，即时通信这个我们可以利用<code>gatewayworker</code>自行开发；但是直播需要考虑到并发等诸多因素，于是选择第三方服务，比如腾讯、阿里等，这里就以腾讯云直播【标准直播(LVB)】为例。</p><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>腾讯云账号、备案域名这就不说了。其次，首次接触直播，也不清楚直播的流程，也不清楚选择哪个服务，所有做起来就稍微比较迷茫。<a href="https://cloud.tencent.com/">腾讯云入口</a></p><p><img src= "/images/loading.gif" data-lazy-src="https://gitee.com/heyiki/image/raw/master/image/20210329233336.png"></p><p>最笨的办法就是把云直播的产品简历浏览一遍，最好的办法就是问问周围的大佬。(PS:腾讯云的客服也超级给力)</p><p>自行根据产品需求不同进行选择吧。</p><h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>使用云直播服务，至少需要2个域名，一个作为推流域名，一个作为播放域名，推流和播放不能使用相同的域名，这个自行在域名管理上绑定CNAME。（域名必须要备案）</p><blockquote><p>注意：添加的域名，一定要按照格式: <code>www.test.com</code>，可以使用二级域名。比如，推流域名；<code>push.test.com</code>；播放域名：<code>play.test.com</code>； 这个域名就是你域名解析列表中的真实域名</p></blockquote><p><img src= "/images/loading.gif" data-lazy-src="https://gitee.com/heyiki/image/raw/master/image/20210329233532.png"></p><p>其中系统默认分配的推流域名，可以当作测试使用，也可以当作正式推流域名使用。当然也可以自定义推流域名，默认分配的域名不需要就可以禁用啦。</p><blockquote><p>注意：刚配置 CNAME 还是 × 的时候，需要等一会就会变成 √<br>云直播使用的是HTTP协议，需要配置HTTPS请参考 <a href="https://cloud.tencent.com/document/product/267/50697">证书管理</a></p></blockquote><p>随后可以到云直播-地址生成器测试啦 <a href="https://cloud.tencent.com/document/product/267/13551">参考文档</a></p><h3 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h3><ol><li>模板配置-录制配置</li></ol><p>点击云直播-域名管理-推流域名-管理按钮，进入页面之后，选择模板配置，点击录制配置的编辑</p><blockquote><p>注意：首次需要开通点播，点播可以选择日结后付费或预先购买资源包计费方式，按需付费，灵活使用</p></blockquote><p><img src= "/images/loading.gif" data-lazy-src="https://gitee.com/heyiki/image/raw/master/image/20210329234426.png"><br><img src= "/images/loading.gif" data-lazy-src="https://gitee.com/heyiki/image/raw/master/image/20210329234420.png"></p><ol start="2"><li>模板配置-回调配置</li></ol><p>同理根据录制配置步骤，创建模板</p><p><img src= "/images/loading.gif" data-lazy-src="https://gitee.com/heyiki/image/raw/master/image/20210329234315.png"></p><p>打开之后，点击创建回调模板如下图，需要填写的根据业务需求填，填写完之后点击保存，回到原来的回调配置，选择刚刚新建的模板即可。</p><p><img src= "/images/loading.gif" data-lazy-src="https://gitee.com/heyiki/image/raw/master/image/20210329234416.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> PHP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PHP </tag>
+            
+            <tag> 直播 </tag>
+            
+            <tag> 腾讯云直播 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>宝塔使用webhook实现conding代码自动部署</title>
       <link href="posts/fba3a87a.html"/>
       <url>posts/fba3a87a.html</url>
