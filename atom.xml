@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2021-03-29T15:32:14.000Z</updated>
+  <updated>2020-03-30T14:09:13.000Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo Buffterfly主题增加叨叨点啥</title>
+    <link href="https://www.heyiki.top/posts/c66dcdf5.html"/>
+    <id>https://www.heyiki.top/posts/c66dcdf5.html</id>
+    <published>2021-03-30T14:09:13.000Z</published>
+    <updated>2020-03-30T14:09:13.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Q：什么是叨叨点啥？跟哔哔点啥又有什么关系？&lt;br&gt;A：叨叨是 &lt;del&gt;盗版&lt;/del&gt; 效仿版</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://www.heyiki.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.heyiki.top/tags/Hexo/"/>
+    
+    <category term="叨叨" scheme="https://www.heyiki.top/tags/%E5%8F%A8%E5%8F%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>腾讯云直播配置</title>
@@ -493,31 +521,6 @@
     
     
     <category term="Ajax" scheme="https://www.heyiki.top/tags/Ajax/"/>
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>php封装方法</title>
-    <link href="https://www.heyiki.top/posts/ad4686af.html"/>
-    <id>https://www.heyiki.top/posts/ad4686af.html</id>
-    <published>2019-09-27T15:09:52.000Z</published>
-    <updated>2021-03-07T14:05:32.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;PHP封装方法&quot;&gt;&lt;a href=&quot;#PHP封装方法&quot; class=&quot;headerlink&quot; title=&quot;PHP封装方法&quot;&gt;&lt;/a&gt;PHP封装方法&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
     
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
     
