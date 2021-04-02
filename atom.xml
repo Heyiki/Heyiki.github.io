@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2020-03-30T14:53:13.000Z</updated>
+  <updated>2021-04-02T16:14:22.000Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHP:curl error 60:SSL certificate unable to get local issuer certificate</title>
+    <link href="https://www.heyiki.top/posts/1c29d3e3.html"/>
+    <id>https://www.heyiki.top/posts/1c29d3e3.html</id>
+    <published>2021-04-02T16:14:22.000Z</published>
+    <updated>2021-04-02T16:14:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;接口请求报错：PHP：cURL error 60: SSL certificate unable to get local issuer certificate</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="CURL" scheme="https://www.heyiki.top/tags/CURL/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo Buffterfly主题增加叨叨点啥</title>
@@ -500,27 +527,6 @@
     
     <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
     
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tp5+ajax实现图片上传且预览</title>
-    <link href="https://www.heyiki.top/posts/35082f1c.html"/>
-    <id>https://www.heyiki.top/posts/35082f1c.html</id>
-    <published>2019-09-27T15:39:52.000Z</published>
-    <updated>2019-09-27T15:39:52.000Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;html&quot;&gt;&lt;a href=&quot;#html&quot; class=&quot;headerlink&quot; title=&quot;html&quot;&gt;&lt;/a&gt;html&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;form id&amp;#x3D;&amp;quot;uploadForm&amp;quot; enctype&amp;#x3D;&amp;quot;multipart&amp;#x2F;form-data&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    上传文件：&amp;lt;input type&amp;#x3D;&amp;quot;file&amp;quot; id&amp;#x3D;&amp;quot;uploadFile&amp;quot; &amp;#x2F;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;&amp;#x2F;form&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;div id&amp;#x3D;&amp;quot;div&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;&amp;#x2F;div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="Ajax" scheme="https://www.heyiki.top/tags/Ajax/"/>
     
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
     
