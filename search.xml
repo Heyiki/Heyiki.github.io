@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Navicat备份数据库出现 show_compatibility_56 相关错误</title>
+      <link href="posts/ab7eafc8.html"/>
+      <url>posts/ab7eafc8.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="数据库备份错误问题"><a href="#数据库备份错误问题" class="headerlink" title="数据库备份错误问题"></a>数据库备份错误问题</h4><p>备份数据库出现：<code>3167 - The &#39;INFORMATION_SCHEMA.GLOBAL_STATUS&#39; feature is disabled; see the documentation for &#39;show_compatibility_56&#39;</code> 的错误，或者 <code>show_compatibility_56</code> 相关错误</p><p>是因为从 <code>mysql5.7.6</code> 开始 <code>information_schema.global_status</code> 已经开始被舍弃，为了兼容性，此时需要打开 <code>show_compatibility_56</code></p><h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><p>执行命令以下命令：</p><p>查看show_compatibility_56视图状态</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show variables like &#39;%show_compatibility_56%&#39;;</span><br></pre></td></tr></table></figure><p>修改show_compatibility_56为on</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set global show_compatibility_56&#x3D;on;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决MySQL5.7.5及以上group by报错的问题</title>
       <link href="posts/36e17204.html"/>
       <url>posts/36e17204.html</url>

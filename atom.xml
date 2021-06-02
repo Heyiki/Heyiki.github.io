@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2021-05-21T13:55:00.000Z</updated>
+  <updated>2021-06-03T15:56:36.000Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Navicat备份数据库出现 show_compatibility_56 相关错误</title>
+    <link href="https://www.heyiki.top/posts/ab7eafc8.html"/>
+    <id>https://www.heyiki.top/posts/ab7eafc8.html</id>
+    <published>2021-06-03T15:56:36.000Z</published>
+    <updated>2021-06-03T15:56:36.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;数据库备份错误问题&quot;&gt;&lt;a href=&quot;#数据库备份错误问题&quot; class=&quot;headerlink&quot; title=&quot;数据库备份错误问题&quot;&gt;&lt;/a&gt;数据库备份错误问题&lt;/h4&gt;&lt;p&gt;备份数据库出现：&lt;code&gt;3167 - The</summary>
+        
+      
+    
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>解决MySQL5.7.5及以上group by报错的问题</title>
@@ -511,29 +536,6 @@
     
     
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tp5 endroid/qrcode 二维码生成</title>
-    <link href="https://www.heyiki.top/posts/277acc0f.html"/>
-    <id>https://www.heyiki.top/posts/277acc0f.html</id>
-    <published>2020-02-19T11:16:42.000Z</published>
-    <updated>2020-02-19T11:16:42.000Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;使用-composer-安装-endroid-qrcode：&quot;&gt;&lt;a href=&quot;#使用-composer-安装-endroid-qrcode：&quot; class=&quot;headerlink&quot; title=&quot;使用 composer 安装 endroid/qrcode：&quot;&gt;&lt;/a&gt;使用 composer 安装 endroid/qrcode：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;由于endroid&amp;#x2F;qrcode不在维护，可安装以下&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;composer require endroid&amp;#x2F;qr-code&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;安装个版本，进入网站查找&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;https:&amp;#x2F;&amp;#x2F;packagist.org&amp;#x2F;packages&amp;#x2F;endroid&amp;#x2F;qrcode&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="ThinkPHP5" scheme="https://www.heyiki.top/tags/ThinkPHP5/"/>
-    
-    <category term="二维码生成" scheme="https://www.heyiki.top/tags/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90/"/>
     
   </entry>
   
