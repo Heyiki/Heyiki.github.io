@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>宝塔Linux面板-安装golang环境</title>
+      <link href="posts/ae24e9bf.html"/>
+      <url>posts/ae24e9bf.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="获取go安装包"><a href="#获取go安装包" class="headerlink" title="获取go安装包"></a>获取go安装包</h4><p>官网：<a href="https://golang.org/dl/">https://golang.org/dl/</a>  （需要梯子）<br>国内安装包下载路径：<a href="https://studygolang.com/dl">https://studygolang.com/dl</a></p><h4 id="下载go并解压"><a href="#下载go并解压" class="headerlink" title="下载go并解压"></a>下载go并解压</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;www&#x2F;server &amp;&amp; wget https:&#x2F;&#x2F;dl.google.com&#x2F;go&#x2F;go1.16.5.linux-amd64.tar.gz</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -xzvf go1.16.5.linux-amd64.tar.gz</span><br></pre></td></tr></table></figure><h4 id="添加环境变量"><a href="#添加环境变量" class="headerlink" title="添加环境变量"></a>添加环境变量</h4><p>使用 打开/etc/profile 文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi &#x2F;etc&#x2F;profile 或者 vim &#x2F;etc&#x2F;profile</span><br></pre></td></tr></table></figure><p>在最底部添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">export GOROOT&#x3D;&#x2F;www&#x2F;server&#x2F;go</span><br><span class="line">export GOBIN&#x3D;$GOROOT&#x2F;bin</span><br><span class="line">export GOPKG&#x3D;$GOROOT&#x2F;pkg&#x2F;tool&#x2F;linux_amd64</span><br><span class="line">export GOARCH&#x3D;amd64</span><br><span class="line">export GOOS&#x3D;linux</span><br><span class="line">export GOPATH&#x3D;&#x2F;www&#x2F;wwwroot&#x2F;Golang</span><br><span class="line">export PATH&#x3D;$PATH:$GOBIN:$GOPKG:$GOPATH&#x2F;bin</span><br></pre></td></tr></table></figure><p>执行命令使环境变量生效</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &#x2F;etc&#x2F;profile</span><br></pre></td></tr></table></figure><h4 id="版本检查"><a href="#版本检查" class="headerlink" title="版本检查"></a>版本检查</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go version</span><br></pre></td></tr></table></figure><p>输出<code>go version go1.16.5 linux/amd64</code>即为成功</p><h4 id="创建GOROOT目录"><a href="#创建GOROOT目录" class="headerlink" title="创建GOROOT目录"></a>创建GOROOT目录</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir &#x2F;www&#x2F;wwwroot&#x2F;Golang</span><br></pre></td></tr></table></figure><p>至此，后续项目可在<code>Golang</code>目录下搭建</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Go </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> Go </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>TP6+Swoole配置使用</title>
       <link href="posts/71660b7e.html"/>
       <url>posts/71660b7e.html</url>

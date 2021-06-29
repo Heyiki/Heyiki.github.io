@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2021-06-28T13:36:40.000Z</updated>
+  <updated>2021-06-29T14:51:14.000Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宝塔Linux面板-安装golang环境</title>
+    <link href="https://www.heyiki.top/posts/ae24e9bf.html"/>
+    <id>https://www.heyiki.top/posts/ae24e9bf.html</id>
+    <published>2021-06-29T14:51:14.000Z</published>
+    <updated>2021-06-29T14:51:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;获取go安装包&quot;&gt;&lt;a href=&quot;#获取go安装包&quot; class=&quot;headerlink&quot; title=&quot;获取go安装包&quot;&gt;&lt;/a&gt;获取go安装包&lt;/h4&gt;&lt;p&gt;官网：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://www.heyiki.top/categories/Go/"/>
+    
+    
+    <category term="Linux" scheme="https://www.heyiki.top/tags/Linux/"/>
+    
+    <category term="Go" scheme="https://www.heyiki.top/tags/Go/"/>
+    
+  </entry>
   
   <entry>
     <title>TP6+Swoole配置使用</title>
@@ -516,35 +543,6 @@
     <category term="HTML" scheme="https://www.heyiki.top/tags/HTML/"/>
     
     <category term="Javascript" scheme="https://www.heyiki.top/tags/Javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ThinkPHP5 使用swoole 网页版实时聊天</title>
-    <link href="https://www.heyiki.top/posts/b6a546a8.html"/>
-    <id>https://www.heyiki.top/posts/b6a546a8.html</id>
-    <published>2020-06-02T06:36:40.000Z</published>
-    <updated>2020-06-02T06:36:40.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;目前官方已经开放了&lt;br&gt;ThinkPHP5.1版本的swoole：&lt;br&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="Swoole" scheme="https://www.heyiki.top/tags/Swoole/"/>
-    
-    <category term="ThinkPHP5" scheme="https://www.heyiki.top/tags/ThinkPHP5/"/>
     
   </entry>
   
